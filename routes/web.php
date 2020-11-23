@@ -4,10 +4,10 @@ use Illuminate\Support\Facades\Route;
 
 route::get('/',function(){
 
-    return view("Home");
+    return view("pages/Home");
 });
 
 route::get('/about-us',function(){
 
-    return view("about");
+    return view("/pages/about");
 });

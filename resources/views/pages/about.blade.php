@@ -13,7 +13,9 @@
 <p> retour a la page d'accuile  <a href="/">Home </a></p>
 
  <footer>
- <p> &copy; Copyright {{date('y')}} &middot; <a href="/about-us">About Us </a> </p>
+ <p> &copy; Copyright {{date('Y')}} &middot; 
+ 
+  </p>
  </footer>
  </body>
  </html>
