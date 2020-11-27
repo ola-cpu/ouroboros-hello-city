@@ -8,7 +8,10 @@
 
 </head>
 <body>
-	@yield('content')
+
+@yield('content')
+	
+	
 
  <footer>
  <p> &copy; Copyright {{ date('Y') }} &middot;

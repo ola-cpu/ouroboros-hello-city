@@ -2,11 +2,8 @@
 
 
 
-@section('title')
+@section('title' ,env('APP_NAME'))
 
-Hello city
-
-@endsection
 
 @section('content')
 
