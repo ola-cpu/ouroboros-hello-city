@@ -15,7 +15,10 @@
  <footer>
  <p> &copy; Copyright {{ date('Y') }} &middot;
  
+ 	@if(Route::is('app_home'))
   <a href="{{ route('app_about') }}">About-Us </a>
+
+  @endif
    </p>
  </footer>
  </body>
