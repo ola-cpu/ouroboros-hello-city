@@ -2,7 +2,7 @@
 
 
 
-@section('title' ,env('APP_NAME'))
+@section('title' ,config('app.name'))
 
 
 @section('content')
