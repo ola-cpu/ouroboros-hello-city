@@ -9,7 +9,7 @@ About | US
 
  <h1> je suis le developeur ouroboros &hearts;</h1>
 
-<p> retour a la page d'accuile  <a href="/">Home </a></p>
+<p> retour a la page d'accuile  <a href="{{ route('app_home') }}">Home </a></p>
 
 
 
