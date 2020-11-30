@@ -1,4 +1,4 @@
-@extends('base')
+@extends('base',['pageTitle' => 'About Us | hello pays'])
 
 @section('title')
 

@@ -1,8 +1,8 @@
-@extends('base')
+@extends('base',['pageTitle' => 'hello pays'])
 
 
 
-@section('title' ,config('app.name'))
+
 
 
 @section('content')
