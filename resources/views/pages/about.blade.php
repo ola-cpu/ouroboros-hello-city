@@ -7,12 +7,13 @@ About | US
 
 @section('content')
 
-<img src="{{ asset('images/Folder1.jpg') }}" alt="ma deuxieme img">
+<img src="{{ asset('images/Folder1.jpg') }}" alt="ma deuxieme img" class="my-12 rounded-full shadow-md">
 
 
- <h1> je suis le developeur ouroboros &hearts;</h1>
+ <h1 class="mb-5 text-gray-700"> je suis le developeur ouroboros <span class="text-pink-500"> &hearts;</span>
+ </h1>
 
-<p> retour a la page d'accuile  <a href="{{ route('app_home') }}">Home </a></p>
+<p> retour a la page d'accuile  <a href="{{ route('app_home') }}" class="text-indigo-500 hover:text-indigo-600 underline">Home </a></p>
 
 
 
